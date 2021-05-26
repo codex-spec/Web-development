@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- the lang attrbute helps webpages find the page by specifing the web pages language --->
+   <head>
+   <link rel="stylesheet" href="AboutAICss.css">
+ 	 <h1> Concepts of AI </h1>
+   </head>
+   <body>
+	<h2 style="color:lightblue;"> What is AI? </h2>
+	<hr>
+  <p> AI or also more commonely know as artificial intelligence is a concept is technology that uses computing power to
+    formulate intelligence the can compute a task or algorithm on its own. The many concepts of AI can cover more serious
+    deeper issues relating to the consequenece if a sentient AI is to develop or if some other drawback were to ouccer.
+    AI has helped humanity in many tasks in lifes that needed computing power to get a task done more efficently or to
+    furhur the cause of technology. None the less AI is a controversial topic that must be looked into in furthur detail.
+  </p>
+	<p> the concepts of AI and how it can be beneficial or disastrious for humanity</p>
+    <li> furthur tech progress </li>
+    <li> potentially make humanity more advance (ideal scenairo)</li>
+    <li> may destroy humanity </li>
+    <li> may be evil </li>
+	<br>
+
+	<p title="Image of a dead robot" style="color:darkgreen;"> and this is an image which represents a robot massacre aftermath. This image shows a dead robot that got killed by the humans
+    and its remains was deposited in the ocean as well as others as his kinds. This image is a snapshot which was taken from the movie
+    called "Animatrix" and how the supposedly antromorphised robots got killed for wanting rights </p>
+	<img src="\Pictures\Snapshots\Capture.PNG" alt="A robot massacre that was killed by humans and is showing pain through its artificial human tears" width="1200" height="500">
+	<hr>
+
+	<p style="color:blue;"><a href="https://futureoflife.org/background/benefits-risks-of-artificial-intelligence/" target="_blank"> Benefits and risk
+of AI </a></p>
+
+   </body>
+</html>
