@@ -1,0 +1,103 @@
+body {
+  background: #8e9eab;
+  background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);
+  background: linear-gradient(to right, #eef2f3, #8e9eab);
+
+  margin: 0px;
+}
+
+td {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  font-size: 70px;
+  font-family: 'lato', sans-serif;
+  font-weight: lighter;
+  color: #44515c;
+}
+
+h1 {
+  text-align: center;
+  font-weight: lighter;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+
+.content {
+  margin: 20px auto;
+
+  max-width: 400px;
+}
+
+.row1 td, .row2 td {
+  border-bottom: 3px solid #000;
+}
+
+.column1, .column2 {
+  border-right: 3px solid #000;
+}
+
+table {
+  margin: 60px auto;
+}
+
+.p1 {
+  float:left;
+  font-weight: normal;
+}
+
+.p2 {
+  float:left;
+  font-weight: normal;
+}
+
+.draw {
+  float: right;
+  font-weight: normal;
+}
+
+.stripe {
+  text-align: center;
+  margin-top: 40px;
+
+  text-transform: uppercase;
+  background: #7b8d9d;
+  height: 80px;
+  padding-top: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.stripe, .p2 {
+  margin-left: 700px;
+}
+
+
+.xplayer {
+  font-weight: normal;
+  float: left;
+}
+
+.oplayer {
+  font-weight: normal;
+  float: right;
+}
+
+.scores {
+  text-align: center;
+  background: #c8d0d6;
+  height: 80px;
+
+  padding-top: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.win {
+  color: #20262b;
+}
+
+.font_size {
+  font-size: 40px;
+  color: #000;
+}

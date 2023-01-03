@@ -1,0 +1,32 @@
+
+body {
+  background-color: #008B8B;
+  text-align: center;
+}
+
+.title {
+  font-size: 80px;
+  font-style: oblique;
+  text-align: center;
+  color: #7FFF00
+}
+
+.pressAnywhereHeader {
+  text-align: center;
+  margin-top: 25px;
+  font-family: monospace;
+  color: #8FBC8F;
+}
+
+h1 > img {
+  width: 100px;
+  height: 100px;
+}
+
+#snakeboard {
+  position: absolute;
+  background-color: black;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

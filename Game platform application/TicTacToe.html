@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <Title>Welcome to Tic Tac Toe </Title>
+  <link rel = "stylesheet" href="TicTacToeStyles.css">
+  <!-- CSS only -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="">
+    <div class="jumbotron">
+      <h1 class="display-4 heading">Tic tac toe</h1>
+
+      <div class="scores">
+        <h2 class = "xplayer d-inline ">player one: 'X'</h2>
+        <a class = "d-inline btn btn-outline-dark btn-lg reset"  role="button">RESET</a>
+        <a class = "d-inline btn btn-outline-dark btn-lg replay" role="button">REPLAY</a>
+          <h2 class = "oplayer d-inline">Player two : 'O'</h2>
+
+      </div>
+
+        <div classs="stripe">
+
+            <h3 class = "d-inline p1">Player one : <span class="p1score">0</span></h3>
+            <h3 class = "d-inline p2">Player two : <span class = "p2score" >0</span></h3>
+            <h3 class = "d-inline draw"> Draw Matches : <span class = "drawMatches">0</span></h3>
+        </div>
+
+
+    </div>
+  </div>
+
+        <table>
+          <tr class = "row1">
+            <td class = "column1 diagonal1"></td>
+            <td class = "column2"></td>
+            <td class = "column3 diagonal2"></td>
+          </tr>
+          <tr class = "row2">
+            <td class = "column1"></td>
+            <td class = "column2 diagonal1 diagonal2"></td>
+            <td class = "column3"></td>
+          </tr>
+          <tr class = "row3">
+            <td class = "column1 diagonal1"></td>
+            <td class = "column2"></td>
+            <td class = "column3 diagonal1"></td>
+          </tr>
+        </table>
+
+  <script src="TicTacToe.js" charset="utf-8" type="text/javascript"></script>
+</body>
+</html>
